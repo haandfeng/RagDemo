@@ -34,6 +34,8 @@ RagDemo/
   └─ requirements.txt
 ```
 ## 三、运行方式
+
+请首先在config.yaml里配置自己的硅基流动api:  api_key: "sk-xxxx"
 ```bash
 cd /path/to/RagDemo
 python app.main
