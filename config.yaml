@@ -1,0 +1,11 @@
+siliconflow:
+  api_key: "sk-euxwatberzglajozuvirevbikffjdzfckekjkwzpvpaggbxs"
+  base_url: "https://api.siliconflow.cn/v1"
+  chat_model: "Qwen/Qwen3-8B"
+  embedding_model: "BAAI/bge-m3"
+
+vectorstore:
+  persist_dir: "./chroma_data"
+  collection_name: "documents"
+
+prompt_file: "prompts/rag_prompts.yaml"
